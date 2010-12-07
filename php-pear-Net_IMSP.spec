@@ -5,7 +5,7 @@
 
 Name:          php-pear-Net_IMSP
 Version:       0.0.6
-Release:       %mkrel 2
+Release:       %mkrel 3
 Summary:       Net_IMSP
 License:       LGPL
 Group:         Networking/Mail
