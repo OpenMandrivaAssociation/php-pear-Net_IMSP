@@ -5,7 +5,7 @@
 
 Name:          php-pear-Net_IMSP
 Version:       0.0.6
-Release:       %mkrel 4
+Release:       %mkrel 3
 Summary:       Net_IMSP
 License:       LGPL
 Group:         Networking/Mail
@@ -59,3 +59,25 @@ fi
 %{peardir}/Net/IMSP/Book.php
 %{peardir}/Net/IMSP/Utils.php
 %{peardir}/Net/IMSP/Options.php
+
+
+%changelog
+* Tue Dec 07 2010 Oden Eriksson <oeriksson@mandriva.com> 0.0.6-3mdv2011.0
++ Revision: 613728
+- the mass rebuild of 2010.1 packages
+
+* Fri Mar 19 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.6-2mdv2010.1
++ Revision: 525161
+- replaced Requires(pre): %%{_bindir}/pear with Requires(pre): php-pear
+  increased rel ver to 2
+
+* Sat Feb 27 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.6-1mdv2010.1
++ Revision: 512489
+- added Requires: php-pear-channel-horde
+- added: Requires(pre): %%{_bindir}/pear
+  added: Requires:      php-pear
+  added: BuildRequires: php-pear
+  added: BuildRequires: php-pear-channel-horde
+- import php-pear-Net_IMSP
+
+
